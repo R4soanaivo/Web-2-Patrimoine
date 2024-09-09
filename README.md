@@ -1,12 +1,9 @@
 # Projet Patrimoine & Gestion des Possessions
 
-Ce projet est une application web qui permet de gérer et de suivre la valeur des possessions au fil du temps, ainsi que de visualiser les données sous forme de tableau et de graphique. L'application est construite avec React.js pour le frontend et Express.js pour le backend.
+Ce projet est une application web dédiée à la gestion et au suivi des possessions, permettant de visualiser l'évolution de leur valeur au fil du temps. L'application est construite avec React.js pour le frontend et Express.js pour le backend.
 
 ## Fonctionnalités
 
-- **Tableau des possessions** : Affiche une liste des possessions avec leurs valeurs actuelles calculées, leur date de début, de fin, et leur taux d'amortissement.
-- **Graphique des valeurs** : Affiche un graphique en ligne montrant la valeur des possessions à une date spécifique.
-- **Calcul de la valeur du patrimoine** : Calcule la valeur totale du patrimoine en fonction des possessions actuelles.
-
-"# Web-2-Patrimoine" 
-"# Web-2-Patrimoine" 
+- **Tableau des Possessions** : Affiche une liste détaillée des possessions, incluant leur valeur actuelle calculée, les dates de début et de fin, ainsi que le taux d'amortissement.
+- **Graphique de Valeur** : Présente un graphique linéaire illustrant l'évolution de la valeur des possessions à différentes dates.
+- **Calcul de la Valeur Totale** : Détermine la valeur totale du patrimoine en agrégeant les valeurs actuelles des possessions.
