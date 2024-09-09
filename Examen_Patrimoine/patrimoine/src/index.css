@@ -1,0 +1,181 @@
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe0b2; /* Fond sableux clair tropical */
+  color: #004d40; /* Texte sombre pour contraste */
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #004d40; /* Fond vert foncé tropical pour la navbar */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Texte blanc pour contraste */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b2dfdb; /* Couleur claire au survol */
+}
+
+.navbar-custom {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Contenu principal */
+.main-content {
+  background-color: #a5d6a7; /* Fond vert clair tropical pour les sections */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Table */
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  background-color: #e0f2f1; /* Fond blanc pour le tableau */
+  border-radius: 8px;
+  color: #004d40; /* Texte sombre pour contraste */
+  width: 100%;
+  border-collapse: collapse; /* Pour supprimer les espaces entre les cellules */
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 10px; /* Ajout de padding pour espacer le texte */
+}
+
+.table th {
+  background-color: #26a69a; /* Fond vert tropical pour les en-têtes */
+  color: #ffffff; /* Texte blanc pour contraste */
+}
+
+.table td {
+  background-color: #e0f2f1; /* Fond vert très clair pour les cellules */
+}
+
+.table tr:nth-child(even) {
+  background-color: #b2dfdb; /* Fond alternatif pour les lignes paires */
+}
+
+.table tr:hover {
+  background-color: #80cbc4; /* Fond vert plus foncé au survol des lignes */
+}
+
+/* Chart */
+.chart-container {
+  background-color: #e0f2f1; /* Fond bleu clair tropical pour la section graphique */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Formulaire */
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  min-height: 80vh; /* Hauteur minimale pour centrer verticalement */
+}
+
+form {
+  background-color: #ffffff; /* Fond blanc pour le formulaire */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Limite la largeur du formulaire */
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #004d40; /* Texte sombre pour contraste */
+}
+
+input[type="text"],
+input[type="number"],
+.react-datepicker-wrapper {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #004d40; /* Bordure sombre pour les champs de saisie */
+  border-radius: 4px;
+  background-color: #ffffff; /* Fond très clair pour les champs de saisie */
+  color: #004d40; /* Texte sombre pour les champs de saisie */
+}
+
+button {
+  background-color: #ffab00; /* Couleur jaune soleil pour le bouton */
+  color: #e0f2f1; /* Texte blanc pour contraste */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f57f17; /* Couleur jaune plus foncée au survol */
+}
+
+/* Aligner les boutons au centre */
+button[type="submit"] {
+  display: block;
+  margin: 20px auto; /* Centres le bouton horizontalement avec une marge au-dessus et au-dessous */
+}
+
+/* Alignement du bouton Valider et des sélecteurs de date dans le tableau */
+.table-container .mt-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les éléments */
+  margin-top: 20px;
+}
+
+.table-container .mt-3 label {
+  margin-bottom: 10px;
+}
+
+.table-container .mt-3 .react-datepicker-wrapper {
+  margin-bottom: 10px; /* Marge inférieure pour espacer les éléments */
+}
+
+.table-container .mt-3 button {
+  margin-top: 10px;
+}
+
+/* Texte */
+h3 {
+  margin-top: 20px;
+  color: #004d40; /* Texte vert tropical pour les titres */
+  text-align: center; /* Centre le texte */
+}
+
+.value-patrimoine {
+  text-align: center; /* Centre le texte */
+  margin-top: 20px; /* Espace au-dessus */
+}
